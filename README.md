@@ -10,12 +10,11 @@ No meu trabalho utilizei 3 librarias específicas que me ajudaram a desenvolver 
 
 ## 3- Descrição do trabalho
 ### 3.1- Identificação
-O meu programa consiste na serialização e na desserialização de um bloco de bitcoin.Um bloco de bitcoin possui informações importantes acerca dele mesmo, como a sua hash, o seu mineiro, a sua altura, e o seu tamanho, o seu número de transações e estes dados precisam de ser serializados,transformando o numa estruturas de dados em que possa ser armazenado e serem transmitidos, de uma forma mais robusta e tornar estes objetos persistentes.
+O meu programa consiste na serialização e na desserialização de um bloco de bitcoin, esse, bloco de bitcoin possui informações importantes acerca dele mesmo, como a sua hash, o seu mineiro, a sua altura, e o seu tamanho, o seu número de transações e estes dados precisam de ser serializados,transformando-o em estruturas de dados em que possam ser armazenados e serem transmitidos, de uma forma mais robusta e tornarem-se objetos persistentes.
 
 ### 3.2- Documentação
-  Serialização
-  Desserialização
-  
+ Serializacao
+ Desserialização
 ### 3.4- Funcionamento
 Primeiro precisaremos importar a biblioteca de requests e depois fazer o download  da página usando o método requests.get a atribuindo a página a variavel page
 Depois temos que importar a biblioteca, e criar um exemplo da classe BeautifulSoup
