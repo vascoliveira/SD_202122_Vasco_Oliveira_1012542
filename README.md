@@ -20,7 +20,8 @@ Primeiro precisaremos importar a biblioteca de requests e depois fazer o downloa
 Depois temos que importar a biblioteca, e criar um exemplo da classe BeautifulSoup
 Na variável soap conseguimos analisar o nosso documento e assim podemos ver todo conteúdo HTML da página e scrappear todo o conteúdo que nós quisermos.
 Depois guardei na variável lists toda a informação do bloco que vinha da div com a sua classe especifica.
-A seguir, criei um loop  para correr todos campos da minha listas com os seus spans específicos e a sua classe específica que possui o bloco da bitcoin e colocar na variável lists e, depois fazer um print destes valores numa lista.
+A seguir, criei um loop  para correr todos campos armazenados na minha variável lists com os seus spans específicos e a sua classe específica que possui toda a informação que queremos acerca do bloco e guardamos tudo na variável info.
+Depois é só fazer um print destes valores da info e iremos ver como esperado toda a informação que queremos. .
 E depois através da biblioteca pickle serializar esta lista de valores.
 
 ## 5- Bibliografia
